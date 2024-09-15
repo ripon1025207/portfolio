@@ -1,0 +1,9 @@
+Create a website for portfolio and resume.
+pages: Home, About, Portfolio, Contact....
+use external css for styling.
+
+Home page:
+- Header with Name and navigation menu
+- Hero section with welcome message and image
+
+Interval (dinner break)---------- 10:35 PM to 11 PM....

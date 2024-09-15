@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section starts */
+header{
+    background-color: #221537;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+    padding: 0 70px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+.highlight{
+    color: red;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+ul li{
+    list-style: none;
+    color: #fff;
+}
+
+ul li a{
+ color: #fff;
+ text-decoration: none;
+}
+
+/* header section ends */
+
+/* index main section starts */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+.img_section{
+    height: 89vh;
+    width: 55vw;
+}
+.img_section .profile_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text_section{
+    width: 45vw;
+    height: 89vh;
+    padding: 50px;
+    background-color: #221537;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.text_section h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+.text_section p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.text_section button{
+    border: none;
+    padding: 15px 50px;
+    background-color: tan;
+    border-radius: 7px;
+}
+.text_section a button{
+    color: #0285F5;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.text_section a button:hover{
+    color: #003d73;
+    background-color: rgb(148, 124, 92);
+
+}
+
+/* index main section ends */
+
+/* about section starts */
+.about_img_section{
+    height: 92vh;
+    width: 35vw;
+}
+.about_img_section .about_img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.about_text_section{
+    height: 92vh;
+    width: 65vw;
+    padding: 50px;
+}
+.about_text_section h2, .contact_form h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+}
+.about_text_section table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.about_text_section table th{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+.about_text_section table td{
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+.about_text_section p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* about section ends */
+
+/* contact section starts */
+.contact_form{
+    width: 100%;
+    height: 89vh;
+    max-width: 700px;
+    padding: 30px;
+}
+.form_group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form_group label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form_group input{
+    padding: 10px;
+    outline: none;
+    border: .7px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.form_group textarea{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 150px;
+    outline: none;
+    border: .7px solid #000;
+}
+.submit{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 7px;
+    background-color: tan;
+    color: #555555;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.map{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map .map_frame{
+    height: 100%;
+    width: 100%;
+}
+
+.social_links{
+    margin: 25px 15px 25px 0;
+}
+.social_links a{
+    /* color: rgb(224, 156, 95); */
+    margin: 10px;
+}
+/* contact section ends */
